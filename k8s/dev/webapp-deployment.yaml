@@ -50,5 +50,5 @@ spec:
               protocol: TCP
           resources: {}
       restartPolicy: Always
-      serviceAccountName: default
+      serviceAccountName: demos
 status: {}

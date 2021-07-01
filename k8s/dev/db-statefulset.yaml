@@ -46,7 +46,7 @@ spec:
             - mountPath: /var/lib/mysql
               name: db-data
       restartPolicy: Always
-      serviceAccountName: default
+      serviceAccountName: demos
       volumes:
         - name: db-data
           persistentVolumeClaim:
