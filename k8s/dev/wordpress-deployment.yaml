@@ -44,6 +44,8 @@ spec:
         app: wordpress
         tier: frontend
     spec:
+      securityContext:
+        runAsUser: 10001
       containers:
         - image: wordpress:4.8-apache
           name: wordpress
